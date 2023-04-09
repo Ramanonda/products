@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/skeleton.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-left">Add products</h1>
+        <form action="" method="get">
+            <div class="form-group">
+                <label for="product">Products Name</label>
+                <input type="text" name="product" id="product" class="u-full-width">
+            </div>
+            <div class="form-group">
+                <label for="price">Products price</label>
+                <input type="text" name="price" id="price" class="u-full-width">
+            </div>
+            <div class="form-group">
+                <label for="pty">stock Quantity</label>
+                <input type="text" name="pty" id="pty" class="u-full-width">
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit" value="submit" class="u-full-width">
+            </div>
+            <hr>
+            <table class="table u-full-width">
+                <thead>
+                    <tr>
+                        <th>SL</th>
+                        <th>Product anme</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="product-list">
+
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
